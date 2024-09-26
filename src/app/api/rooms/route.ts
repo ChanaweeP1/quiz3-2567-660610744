@@ -7,7 +7,7 @@ export const GET = async () => {
   readDB();
   return NextResponse.json({
     ok: true,
-    //rooms:
+    rooms:
     //totalRooms:
   });
 };
